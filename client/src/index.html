@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JustStarted | Find your materials faster</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a href="index.html" class="navbar-brand">
+      <div class="logo">
+        <img src="../images/46456452_307631903409974_5704396917677490176_n.jpg" alt="courseek logo">
+        <!-- <p>cours<span>ee</span>k</p> -->
+      </div>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#explore-head-section" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#create-head-section" class="nav-link">Connect</a>
+          </li>
+          <li class="nav-item">
+            <a href="#share-head-section" class="nav-link">Share</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <div id="home_contaner">
+
+    <header id="home-section">
+      <div class="dark-overlay">
+
+        <div class="home-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 d-none d-lg-block">
+                <h1 class="display-4">Access
+                  <strong>lots of </strong>amazing Courses and
+                  <strong>learn!</strong>
+                </h1>
+                <div class="d-flex flex-row">
+                  <div class="p-4 align-self-start">
+                    <i class="fa fa-check"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                    You can sort materials by free, paid.
+                  </div>
+                </div>
+
+                <div class="d-flex flex-row">
+                  <div class="p-4 align-self-start">
+                    <i class="fa fa-check"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                    You can buy a material, share and review material on your dashboard.
+                  </div>
+                </div>
+
+                <div class="d-flex flex-row">
+                  <div class="p-4 align-self-start">
+                    <i class="fa fa-check"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                    You can study different courses at a time.
+                  </div>
+                </div>
+
+
+                <div class="container">
+
+                  <!-- Trigger the modal with a button -->
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="regbtn">Register</button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content" id="modal-content">
+                        <div class="modal-body">
+                          <section id="tabs">
+                            <div class="container">
+                              <h6 class="section-title h1">Register As</h6>
+                              <div class="row">
+                                <div class="col-xs-12 ">
+                                  <nav>
+                                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+                                        aria-selected="true">Investor</a>
+                                      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+                                        aria-selected="false">Startup</a>
+                                      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+                                        aria-selected="false">Mentor</a>
+                                    </div>
+                                  </nav>
+                                  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                      <form id="reg_form">
+                                        <div class="form-group">
+                                          <input id="username" name="username" type="text" class="form-control form-control-lg" placeholder="Username">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="email" name="email" type="email" class="form-control form-control-lg" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="password" name="password" type="password" class="form-control form-control-lg" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="confirmPassword" name="rePassword" type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                                        </div>
+
+                                        <div id="link">
+                                          <a href="../public/dashboard.html">
+                                            <h4>Sign Up</h4>
+                                          </a>
+                                        </div>
+
+                                        <!-- <a href = "../public/dashboard.html"><button  id="submit" class="btn btn-outline-light btn-block">Sign Up</button></a> -->
+                                      </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                      <form id="reg_form">
+                                        <div class="form-group">
+                                          <input id="username" name="username" type="text" class="form-control form-control-lg" placeholder="Username">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="email" name="email" type="email" class="form-control form-control-lg" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="password" name="password" type="password" class="form-control form-control-lg" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="confirmPassword" name="rePassword" type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="language" name="language" type="text" class="form-control form-control-lg" placeholder="business name">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="language" name="language" type="text" class="form-control form-control-lg" placeholder="business type">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="language" name="language" type="text" class="form-control form-control-lg" placeholder="business location">
+                                        </div>
+                                        <div id="link">
+                                          <a href="../public/dashboard.html">
+                                            <h4>Sign Up</h4>
+                                          </a>
+                                        </div>
+
+                                        <!-- <a href = "../public/dashboard.html"><button  id="submit" class="btn btn-outline-light btn-block">Sign Up</button></a> -->
+                                      </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                      <form id="reg_form">
+                                        <div class="form-group">
+                                          <input id="username" name="username" type="text" class="form-control form-control-lg" placeholder="Username">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="email" name="email" type="email" class="form-control form-control-lg" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="password" name="password" type="password" class="form-control form-control-lg" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                          <input id="confirmPassword" name="rePassword" type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                                        </div>
+
+                                        <div id="link">
+                                          <a href="../public/dashboard.html">
+                                            <h4>Sign Up</h4>
+                                          </a>
+                                        </div>
+
+                                        <!-- <a href = "../public/dashboard.html"><button  id="submit" class="btn btn-outline-light btn-block">Sign Up</button></a> -->
+                                      </form>
+                                    </div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+              </div>
+              <div class="col-lg-4">
+                <div class="card bg-primary text-center card-form">
+                  <div class="card-body" id="loginform">
+                    <h5>Have an account?
+                      <strong>Login</strong>
+                    </h5>
+                    <form>
+                      <div class="form-group">
+                        <input id="username" name="username" type="text" class="form-control form-control-lg" placeholder="Username">
+                      </div>
+
+                      <div class="form-group">
+                        <input id="password" name="password" type="password" class="form-control form-control-lg" placeholder="Password">
+                      </div>
+
+                      <div id="link">
+                        <a href="../public/dashboard.html">
+                          <p>Login</p>
+                        </a>
+                      </div>
+
+                      <!-- <a href = "../public/dashboard.html"><button  id="submit" class="btn btn-outline-light btn-block">Sign Up</button></a> -->
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="reg"></div>
+  </div>
+
+  <!-- EXPLORE HEAD -->
+  <div id="about_container">
+    <section id="explore-head-section">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="py-5">
+              <h1 class="display-4">About</h1>
+              <p class="lead">
+                JustStarted provides unlimited access to the world’s best educational courses, partnering with top learning platforms and
+                organizations to offer courses online.
+
+              </p>
+              <a href="#" class="btn btn-outline-secondary">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE SECTION -->
+    <section id="explore-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/imgfolder/African-Entrepreneur-1.png" alt="" class="img-fluid mb-3 rounded-circle">
+          </div>
+          <div class="col-md-6">
+            <h3>Explore & Connect</h3>
+            <p>The world’s largest collection of courses! Choose from over 50,000 free online video courses with new additions
+              published every month.</p>
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                50,000 online courses! Explore a variety of fresh topics.
+              </div>
+            </div>
+
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Expert instruction! Find the right instructor for you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- CREATE HEAD -->
+  <div id="conect_container">
+    <section id="create-head-section" class="bg-primary">
+      <div class="container" id='connect-cont'>
+        <div class="row">
+          <div class="col text-center">
+            <div class="py-5">
+              <h1 class="display-4">Connect</h1>
+              <p class="lead">Connect with like-minded people who are passionate about the same course you are studying.
+                <br> We believe connecting and networking with individuals will definitely ease learning and make learning fun.</p>
+              <a href="#" class="btn btn-outline-light">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREATE SECTION -->
+    <section id="create-section" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Create your passion</h3>
+            <p>You are unstoppable! Build in-demand skills and earn valuable credentials.</p>
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Each material is like an interactive textbook, featuring pre-recorded videos, quizzes, and stunning projects.
+              </div>
+            </div>
+
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Earn official recognition for your work, and share your success with friends, colleagues, and employers.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="/imgfolder/0e1a8596914882785.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SHARE HEAD -->
+  <div id="share_container">
+    <section id="share-head-section" class="bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="py-5">
+              <h1 class="display-4">Share</h1>
+              <p class="lead">Share and study with your amazing friends. We believe learning together would be more fun and impactful!</p>
+              <a href="#" class="btn btn-outline-light">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHARE SECTION -->
+    <section id="share-section" class="py-5 bg-light text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/share.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+          </div>
+          <div class="col-md-6">
+            <h3>Share what you create</h3>
+            <p>Share with friends the achievements and badges you've earned while studying on JustStarted</p>
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Share resources to help your colleagues around the country. Share with friends eduactional materials that can't be found
+                elsewhere.
+              </div>
+            </div>
+
+            <div class="d-flex flex-row">
+              <div class="p-4 align-self-start">
+                <i class="fa fa-check"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Build your professional presence online
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- MAIN FOOTER -->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="h3">JustStarted</h1>
+            <p>Copyright &copy; 2018</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal" id="footerbtn">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="name">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
